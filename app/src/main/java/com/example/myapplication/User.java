@@ -8,14 +8,14 @@ public class User {
     private int maxDeliveryTime;
     private int quantity;
     private double maxPrice;
+    private String location;
+    private boolean isGMO;
 
-    public User(String company, Crop desired, int distance, int delivery, int quantityInBushels, double price) {
-        this.company = company;
-        desiredCrop = desired;
-        maxDistance = distance;
-        maxDeliveryTime = delivery;
-        quantity = quantityInBushels;
+    public User(int deliveryTime, String location, double price, boolean isGMo) {
+        maxDeliveryTime = deliveryTime;
+        this.location = location;
         maxPrice = price;
+        this.isGMO = isGMo;
     }
     public String getCompany() {
         return company;
@@ -36,4 +36,11 @@ public class User {
         return maxPrice;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
+    public boolean getGMO() {
+        return this.isGMO;
+    }
 }

@@ -10,8 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:name=".app_bar_connections"
+            android:label="@string/title_activity_app_bar_connections"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".connections"
+            android:label="@string/title_activity_connections"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".first_screen"
+            android:label="@string/title_activity_first_screen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +27,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messages"
+            android:label="@string/title_activity_messages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Connection"/>
+        <activity
+            android:name=".SellerInputInformation"
+            android:label="@string/title_activity_messages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserInputInformation"
+            android:label="@string/title_activity_messages"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
 
 </manifest>

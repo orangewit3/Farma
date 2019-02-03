@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Connection">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/Logo"
             android:layout_width="match_parent"
-            android:layout_height="127dp"
+            android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="-30dp"
@@ -28,8 +28,9 @@
     </android.support.design.widget.AppBarLayout>
 
     <include
-        layout="@layout/content_main"
+        layout="@layout/content_connections"
         android:layout_width="wrap_content"
+        android:layout_height="610dp"
         android:layout_marginTop="110dp"
         android:layout_marginBottom="0dp" />
 
