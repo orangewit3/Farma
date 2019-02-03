@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,28 +33,28 @@ public class UserInputInformation extends AppCompatActivity {
 
     public void onSubmitButtonClick() {
 
-        EditText priceText = findViewById(R.id.priceField);
+        TextView priceText = findViewById(R.id.priceField);
         double price = Double.parseDouble(priceText.getText().toString());
 
-        EditText urgencyText = findViewById(R.id.urgencyField);
+        TextView urgencyText = findViewById(R.id.urgencyField);
         int urgency = Integer.parseInt(urgencyText.getText().toString());
 
         Switch gmoText = findViewById(R.id.gmoField);
         boolean gmo = Boolean.parseBoolean(gmoText.getText().toString());
 
-        EditText distanceText = findViewById(R.id.locationField);
+        TextView distanceText = findViewById(R.id.locationField);
         String location = (distanceText.getText().toString());
 
-        EditText priceTextImp = findViewById(R.id.priceImportanceField);
+        TextView priceTextImp = findViewById(R.id.priceImportanceField);
         int priceImp = Integer.parseInt(priceTextImp.getText().toString());
 
-        EditText urgencyTextImp = findViewById(R.id.urgencyImportanceField);
+        TextView urgencyTextImp = findViewById(R.id.urgencyImportanceField);
         int urgencyImp = Integer.parseInt(urgencyTextImp.getText().toString());
 
-        EditText gmoTextImp = findViewById(R.id.gmoImportanceField);
+        TextView gmoTextImp = findViewById(R.id.gmoImportanceField);
         int gmoImp = Integer.parseInt(gmoTextImp.getText().toString());
 
-        EditText distanceTextImp = findViewById(R.id.locationImportanceField);
+        TextView distanceTextImp = findViewById(R.id.locationImportanceField);
         int distanceImp = Integer.parseInt(distanceTextImp.getText().toString());
 
         users = new User(urgency,location,price,gmo);

@@ -8,7 +8,10 @@ public class rankingSellersScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
+        displayInformation();
     }
 
     public void displayInformation() {
@@ -19,9 +22,9 @@ public class rankingSellersScreen extends AppCompatActivity {
         TextView seller3 = findViewById(R.id.textView4);
         String seller1Summary = sellers[0].getName() + " " + sellers[0].getLocation() + " " + String.valueOf(sellers[0].getCrop().getCost());
         seller1.setText(seller1Summary);
-        String seller2Summary = sellers[0].getName() + " " + sellers[0].getLocation() + " " + String.valueOf(sellers[0].getCrop().getCost());
+        String seller2Summary = sellers[1].getName() + " " + sellers[1].getLocation() + " " + String.valueOf(sellers[1].getCrop().getCost());
         seller2.setText(seller2Summary);
-        String seller3Summary = sellers[0].getName() + " " + sellers[0].getLocation() + " " + String.valueOf(sellers[0].getCrop().getCost());
+        String seller3Summary = sellers[2].getName() + " " + sellers[2].getLocation() + " " + String.valueOf(sellers[2].getCrop().getCost());
         seller3.setText(seller3Summary);
     }
 }

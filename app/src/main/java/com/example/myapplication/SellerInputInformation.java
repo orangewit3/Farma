@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class SellerInputInformation extends AppCompatActivity {
 
-    public ArrayList<Seller> allSellers = new ArrayList<>();
+    public static ArrayList<Seller> allSellers = new ArrayList<>();
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

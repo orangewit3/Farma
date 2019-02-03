@@ -61,7 +61,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sankalp Yamsani Corn from Iowa"
                         android:textStyle="bold|italic" />
 
                     <Button
@@ -109,7 +108,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Arjun Tripathy Soy beans from washington"
                         android:textStyle="bold|italic" />
 
                     <Button
@@ -157,7 +155,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Sahaj Putcha wheat from Califronia"
                         android:textStyle="bold|italic" />
 
                     <Button

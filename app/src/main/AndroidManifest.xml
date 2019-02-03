@@ -14,7 +14,7 @@
             android:label="@string/title_activity_app_bar_connections"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".connections"
+            android:name=".Connection"
             android:label="@string/title_activity_connections"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
@@ -33,23 +33,26 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".messages"
-            android:label="@string/title_activity_messages"
+            android:label="Messages"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".Connection"/>
         <activity
             android:name=".SellerInputInformation"
-            android:label="@string/title_activity_messages"
+            android:label="Seller Input"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".UserInputInformation"
-            android:label="@string/title_activity_messages"
+            android:label="User Input"
             android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity
+            android:name=".rankingSellersScreen"
+            android:label="Seller Screen"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
+
 
 </manifest>
